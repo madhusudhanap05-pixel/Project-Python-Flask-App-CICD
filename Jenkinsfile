@@ -42,7 +42,7 @@ pipeline {
             echo '✅ Build, Push, and Deploy completed successfully!'
         }
         failure {
-            echo '❌ Pipeline failed. Check logs.'
+            echo '❌ Pipeline failed. Check logs...'
         }
     }
 }
